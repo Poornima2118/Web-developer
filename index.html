@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="main-section">
+        <div class="container">
+            <div class="content">
+                <h2 class="award">AWARD WINNING</h2>
+                <h1 class="title">DIGITAL MARKETING AGENCY</h1>
+                <p class="description">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+                <button class="contact-button" onclick="openForm()">CONTACT US</button>
+            </div>
+            <div class="image">
+                <img src="image.png" alt="Person working" id="mainImage">
+            </div>
+        </div>
+    
+
+        <div class="form-popup" id="contactForm">
+            <form class="form-container" action="https://app.getform.io/forms" method="POST">
+                <h2>Talk to us</h2>
+                <label for="email"><b>Work email*</b></label>
+                <input type="email" name="email" id="email" required>
+            
+                <label for="firstName"><b>First name*</b></label>
+                <input type="text" name="first_name" id="firstName" required>
+            
+                <label for="lastName"><b>Last name*</b></label>
+                <input type="text" name="last_name" id="lastName" required>
+            
+                <label class="checkbox-container">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <span class="checkmark"></span>
+                    I agree to the terms and conditions, and provide consent to send me communication.
+                </label>
+            
+                <button type="submit" class="btn">Contact Us</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <div class="service-container">
+            <div class="section-header">
+                <h2 class="section-title">WHAT WE DO</h2>
+                <h1 class="section-subtitle">SERVICES PROVIDE FOR YOU</h1>
+                <p class="section-description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="img1.png" alt="Service 1">
+                </div>
+                <div class="service-item">
+                    <img src="img2.png" alt="Service 2">
+                </div>
+                <div class="service-item">
+                    <div class="service-content">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                        <a href="#" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <img src="img4.png" alt="Service 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
